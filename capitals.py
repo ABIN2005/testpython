@@ -4,7 +4,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyB2HoIfYQeIcZkZi33TkPd3JQ3o81abhmM")  # Replace with your key
 
 # Initialize Gemini model
-model = genai.GenerativeModel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 # Prompt to get all Indian states and their capitals
 prompt = "List all the states of India along with their capitals in a clear format."
